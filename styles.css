@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+div.post-container{
+    background: white;
+    width: 470px;
+    height: 750px;
+    margin: auto;
+    margin-top: 50px;
+}
+div.post-header {
+    display: flex;   
+    align-items: center;
+    margin-top: 10px;
+    height: 60px;
+}
+div .logo{ 
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    font-family: 'Orbitron', sans-serif;
+    border: dashed 4px black;
+}
+div .logo p{
+    display: flex;
+    margin-left: 4px;
+    margin-top: -3px;
+    font-size: xx-large;
+    border: 4px black;
+}
+div .menu{
+    margin-left: 66%;
+}
+div span{
+    margin: right;
+}
+div h1 {
+    font-size: large;
+    margin-left: 10px;
+    margin-bottom: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+div .name {
+    margin-left: 63px;
+    margin-top: 17px;
+    font-family: sans-serif;
+    position: absolute;
+}
+div.post-icons {
+    display:flex;
+    margin: 10px;
+    height: 30px;
+    gap: 9px;
+}
+div .bookmark{
+    margin-left: 73%;
+}
+div.post-body { 
+   box-sizing: 600px;
+   margin: 10px;
+   font-family: sans-serif;
+}
